@@ -1,8 +1,18 @@
-**NOTE**: This is a **sample** application to help you understand how Semantic Kernel and AI can work in Web Applications. This sample is **NOT FOR PRODUCTION** deployments.
+#Cloud Resources
 
-# Chat Copilot Sample Application
+NAME	TYPE	LOCATION	RESOURCE GROUP	SUBSCRIPTION
+openai-search-1314258	Search service	East US	odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
+openai1314258	Storage account		cloud-shell-storage-northeurope	Cloudlabs Sandbox DS - 1123
+odl_user_1314258-rg	Resource group		odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
+cloud-shell-storage-northeurope	Resource group		cloud-shell-storage-northeurope	Cloudlabs Sandbox DS - 1123
+mlws1681647419	Storage account		odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
+csa100320037a161f16	Storage account		cloud-shell-storage-northeurope	Cloudlabs Sandbox DS - 1123
+storage1302642	Storage account		Cloudlabs-ACI-1302642-labvm-1302642-cs047c1e	Cloudlabs Sandbox DS - 1123
+llm-1312549	Azure OpenAI	East US	ODL-OpenAI-Copilot-1312549-OpenAI	Cloudlabs Sandbox DS - 1123
+MLWS	Azure Machine Learning workspace	East US 2	odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
+Cloudlabs Sandbox DS - 1123	Subscription			Cloudlabs Sandbox DS - 1123
+![image](https://github.com/github-cloudlabsuser-923/Innovare-UI/assets/167536206/a2160549-8b5a-4d57-b95e-22400c25de16)
 
-This sample allows you to build your own integrated large language model (LLM) chat copilot. The sample is built on Microsoft [Semantic Kernel](https://github.com/microsoft/semantic-kernel) and has three components:
 
 1. A frontend application [React web app](./webapp/)
 2. A backend REST API [.NET web API service](./webapi/)
@@ -12,11 +22,11 @@ These quick-start instructions run the sample locally. They can also be found on
 
 To deploy the sample to Azure, please view [Deploying Chat Copilot](./scripts/deploy/README.md) after meeting the [requirements](#requirements) described below.
 
-> **IMPORTANT:** This sample is for educational purposes only and is not recommended for production deployments.
+> **IMPORTANT:** It is not recommended for production deployments.
 
 > **IMPORTANT:** Each chat interaction will call Azure OpenAI/OpenAI which will use tokens that you may be billed for.
 
-![Chat Copilot answering a question](https://learn.microsoft.com/en-us/semantic-kernel/media/chat-copilot-in-action.gif)
+
 
 # Requirements
 
