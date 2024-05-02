@@ -1,16 +1,6 @@
 #Cloud Resources
 
-NAME	TYPE	LOCATION	RESOURCE GROUP	SUBSCRIPTION
-openai-search-1314258	Search service	East US	odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
-openai1314258	Storage account		cloud-shell-storage-northeurope	Cloudlabs Sandbox DS - 1123
-odl_user_1314258-rg	Resource group		odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
-cloud-shell-storage-northeurope	Resource group		cloud-shell-storage-northeurope	Cloudlabs Sandbox DS - 1123
-mlws1681647419	Storage account		odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
-csa100320037a161f16	Storage account		cloud-shell-storage-northeurope	Cloudlabs Sandbox DS - 1123
-storage1302642	Storage account		Cloudlabs-ACI-1302642-labvm-1302642-cs047c1e	Cloudlabs Sandbox DS - 1123
-llm-1312549	Azure OpenAI	East US	ODL-OpenAI-Copilot-1312549-OpenAI	Cloudlabs Sandbox DS - 1123
-MLWS	Azure Machine Learning workspace	East US 2	odl_user_1314258-rg	Cloudlabs Sandbox DS - 1123
-Cloudlabs Sandbox DS - 1123	Subscription			Cloudlabs Sandbox DS - 1123
+
 ![image](https://github.com/github-cloudlabsuser-923/Innovare-UI/assets/167536206/a2160549-8b5a-4d57-b95e-22400c25de16)
 
 
